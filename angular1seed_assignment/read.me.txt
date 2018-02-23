@@ -1,0 +1,4 @@
+how to run  :
+
+step1: click on index.html
+step2: open index.html file with  chrome or any browser, you will land on the home page
