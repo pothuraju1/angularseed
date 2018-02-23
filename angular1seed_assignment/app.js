@@ -67,9 +67,9 @@ app.controller("ListController", ['$scope','$http', function($scope, $http) {
         /* variables declaration */
         var reA = /[^a-zA-Z]/g;
         var reN = /[^0-9]/g;
-        $scope.sortByNameflag = true;
-        $scope.sortByCategoryFlag = true;
-        $scope.sortByAmountFlag = true;
+        $scope.sortByNameflag = false;
+        $scope.sortByCategoryFlag = false;
+        $scope.sortByAmountFlag = false;
         
         /* helper function to sortby name
             input: array of objects
